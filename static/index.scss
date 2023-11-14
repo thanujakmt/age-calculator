@@ -1,0 +1,85 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    // border: 1px solid black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .sub_main{
+        // border: 1px solid black;
+        height: 70%;
+        width: 100%;
+        border-radius: 20px 100px 20px 100px;
+        background-color: lavender;
+        // box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        .first_row{
+            margin-top: 10px;
+            .title{
+                h2{
+                    padding: 10px;
+                    text-align: center;
+                    font-size: 2em;
+                    font-weight: 700;
+                    font-style: italic;
+                }
+            }
+            .first_column{
+                display: flex;
+                .input_data{
+                    margin: 2px;
+                    // text-align: center;
+                    display: flex;
+                    flex-direction: column;
+                    label{
+                        padding: 10px;
+                        font-size: 1.5em;
+                        font-weight: 600;
+                        font-style: italic;
+                        text-align: center;
+                    }
+                    input{
+                        width: 100%;
+                        border: none;
+                        border-radius: 35px;
+                        padding: 10px;
+                        outline: none;
+                        border-color: white;
+                    }
+                    input[type="number"]::placeholder {
+                        font-size: 20px;
+                    }
+                }
+                .icon{
+                    // border: 1px solid black;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin-top: 40px;
+                    padding: 10px;
+                    i{
+                        font-size: 3em;
+                        color: rgb(57, 57, 105);
+                    }
+                }
+                
+            }
+        }
+        .age{
+            padding: 6px;
+            h2{
+                font-size: 2.5em;
+                font-style: italic;
+                text-align: center;
+                i{
+                    margin: 10px;
+                }
+            }
+        }
+    }
+}

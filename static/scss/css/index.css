@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main .sub_main {
+  height: 70%;
+  width: 100%;
+  border-radius: 20px 100px 20px 100px;
+  background-color: lavender;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.main .sub_main .first_row {
+  margin-top: 10px;
+}
+.main .sub_main .first_row .title h2 {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: 700;
+  font-style: italic;
+}
+.main .sub_main .first_row .first_column {
+  display: flex;
+}
+.main .sub_main .first_row .first_column .input_data {
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.main .sub_main .first_row .first_column .input_data label {
+  padding: 10px;
+  font-size: 1.5em;
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+.main .sub_main .first_row .first_column .input_data input {
+  width: 100%;
+  border: none;
+  border-radius: 35px;
+  padding: 10px;
+  outline: none;
+  border-color: white;
+}
+.main .sub_main .first_row .first_column .input_data input[type=number]::placeholder {
+  font-size: 20px;
+}
+.main .sub_main .first_row .first_column .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  padding: 10px;
+}
+.main .sub_main .first_row .first_column .icon i {
+  font-size: 3em;
+  color: rgb(57, 57, 105);
+}
+.main .sub_main .age {
+  padding: 6px;
+}
+.main .sub_main .age h2 {
+  font-size: 2.5em;
+  font-style: italic;
+  text-align: center;
+}
+.main .sub_main .age h2 i {
+  margin: 10px;
+}
